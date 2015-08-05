@@ -2,4 +2,4 @@
 
 ## Documentation
 
-Reposito
+Sample portfolio repository
