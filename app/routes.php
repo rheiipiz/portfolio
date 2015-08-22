@@ -11,8 +11,10 @@
 |
 */
 
-Route::get('/', function()
+//Route::resource('users', 'UsersController');
+
+Route::get('/', function() 
 {
-	return View::make('hello');
-}
-);
+    $users = User::all();
+    dd($users);
+});
